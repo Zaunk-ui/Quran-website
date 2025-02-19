@@ -1,0 +1,66 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+header {
+    background: #1e1e1e;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #222;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background: #333;
+}
+
+.ayat {
+    background: #1e1e1e;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.arabic {
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
+    direction: rtl;
+}
+
+.translation {
+    font-size: 16px;
+    color: #ddd;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background: #1e1e1e;
+    padding: 15px;
+    font-size: 14px;
+}
